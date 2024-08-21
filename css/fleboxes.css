@@ -1,0 +1,19 @@
+.flexbox {
+    display: flex;
+}
+  
+.flexbox-wrap {
+    flex-wrap: wrap;
+}
+  
+.flexbox-h-center {
+    justify-content: center; 
+}
+
+.flexbox-v-center {
+    align-items: center;
+}
+
+.flexbox-direction-column {
+    flex-direction: column;
+}

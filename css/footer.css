@@ -1,0 +1,17 @@
+.footer {
+    background-color: #777777;
+    height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer i {
+    padding-right: 1rem;
+}
+
+.footer a p {
+    transition: color 0.5s ease;;
+}
+.footer a p:hover {
+    color: #DBFF00; /* Colore al passaggio del mouse */
+}

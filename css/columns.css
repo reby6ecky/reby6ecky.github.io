@@ -1,0 +1,37 @@
+[class^="column"] {
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.column {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+
+.column-auto {
+    max-width: 100%;
+    flex-basis: auto;
+}
+
+@media (min-width: 768px) {
+    .column-bp-768-auto {
+        max-width: 100%;
+        flex-basis: auto;
+    }
+    
+    .column-bp-768-33 {
+        max-width: 33.33%;
+        flex-basis: 33.33%;
+    }
+    .column-bp-768-50 {
+        max-width: 50%;
+        flex-basis: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .column-bp-992-33 {
+        max-width: 33.33%;
+        flex-basis: 33.33%;
+    }
+}
