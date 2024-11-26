@@ -1,9 +1,13 @@
+/* Classi utili per creare elementi flexbox e impostarne le proprietà  */
+
 .flexbox {
     display: flex;
 }
   
 .flexbox-wrap {
     flex-wrap: wrap;
+    /* Normalmente quando si usa flex gli elementi sono disposti tutti sullo stesso asse.  
+       Per questo è possibile usare la proprietà wrap per fare andare gli elementi a capo all'interno di un contenitore flex. */
 }
   
 .flexbox-h-center {

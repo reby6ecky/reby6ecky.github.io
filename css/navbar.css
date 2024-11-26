@@ -1,3 +1,5 @@
+/* File di stile per navbar */
+
 .navbar {
     background-color: #777777;
     min-height: 54px;
@@ -17,20 +19,23 @@
     max-height: 0;
 }
 
+/* Proprietà valida soltanto per gli elementi <a> all'interno della classe "navbar-links" */
 .navbar-links a {
     padding-right: 1rem;
     text-decoration: none;
-    transition: color 0.5s ease;
+    transition: color 0.5s ease; /* Durata transizione cambio colore */
 }
 
 .navbar-links a:hover {
-    color: #DBFF00;
+    color: #DBFF00; /
 }
 
+/* Nasconde la checkbox "trick" per il trick della navbar */
 #navbar-hamburger-checkbox {
     display: none;
 }
 
+/* Mostra l'icona hamburger che gestisce il menu in versione mobile */
 .navbar-hamburger-column {
     display: block;
     text-align: right;
@@ -42,22 +47,28 @@
     cursor: pointer;
 }
 
+/* Icona di chiusura navbar */
 .navbar .fa-xmark {
     display: none;
 }
 
+/* Queste 3 classi valgono solo se la checkbox è nello stato di "checked" */
+/* Setta l'altezza massima della navbar in versione mobile quando viene espansa */
 #navbar-hamburger-checkbox:checked + .navbar-hamburger-column + .navbar-links-column {
     max-height: 128px;
 }
 
+/* Nasconde l'icona di hamburger menu quando la navbar è espansa */
 #navbar-hamburger-checkbox:checked + .navbar-hamburger-column .fa-bars {
     display: none;
 }
 
+/* Viene mostrata l'icona per ridurre la navbar dopo che è stata espansa */
 #navbar-hamburger-checkbox:checked + .navbar-hamburger-column .fa-xmark {
     display: block;
 }
 
+/* Media query per navbar per risoluzione diverse da mobile */
 @media (min-width: 768px) {
     .navbar-links {
         text-align: end;

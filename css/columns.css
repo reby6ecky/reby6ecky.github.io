@@ -1,8 +1,10 @@
+/* Applica a tutte cle classi che contengono la parola column padding left e right */
 [class^="column"] {
     padding-right: 24px;
     padding-left: 24px;
 }
 
+/* Mobile first (larghezza < 768px) */
 .column {
     max-width: 100%;
     flex-basis: 100%;
@@ -13,6 +15,7 @@
     flex-basis: auto;
 }
 
+/* Media query per larghezza >= 768px "breakpoint" */
 @media (min-width: 768px) {
     .column-bp-768-auto {
         max-width: 100%;
@@ -29,9 +32,12 @@
     }
 }
 
+/* Media query per larghezza >= 992px "breakpoint" */
 @media (min-width: 992px) {
     .column-bp-992-33 {
         max-width: 33.33%;
         flex-basis: 33.33%;
     }
 }
+
+/* flex-basis per gestire la dimensione inziale degli elementi quando viene utilizzato display: flex (flexbox) */

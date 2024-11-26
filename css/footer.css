@@ -9,9 +9,13 @@
     padding-right: 1rem;
 }
 
+/* footer a p è un selettore che serve ad applicare uno stile a tutti gli elementi <p> 
+che sono discendenti di un elemento <a>, a sua volta discendente di un elemento <footer>. */
 .footer a p {
-    transition: color 0.5s ease;;
+    transition: color 0.5s ease; /* Durata della transizione del cambio colore  */
 }
+
+/* Selettore per rilevare quando il mouse viene passato sopra il testo */
 .footer a p:hover {
-    color: #DBFF00; /* Colore al passaggio del mouse */
+    color: #DBFF00; /* Nuovo colore al passaggio del mouse */
 }
