@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <!-- Settings -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/texts.css">
+        <link rel="stylesheet" href="css/colors.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/images.css">
+        <link rel="stylesheet" href="css/fleboxes.css">
+        <link rel="stylesheet" href="css/justifies.css">
+        <link rel="stylesheet" href="css/columns.css">
+        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/containers.css">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+        <!-- Title -->
+        <title>Portfolio</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- Navbar -->
+            <nav class="navbar flexbox flexbox-h-center">
+                <div class="container flexbox flexbox-wrap flexbox-v-center justify-content-space-between">
+                    <div class="navbar-title-column">
+                        <p class="miriam-libre-bold text-normal">REBECCA LA MAGNA</p>
+                    </div>
+    
+                    <!-- Hamburger button checkbox trick -->
+                    <input type="checkbox" id="navbar-hamburger-checkbox">
+    
+                    <div class="navbar-hamburger-column">
+                        <label for="navbar-hamburger-checkbox" class="navbar-hamburger">
+                            <i class="fas fa-bars"></i>
+                            <i class="fas fa-xmark"></i>
+                        </label>
+                    </div>
+    
+                    <!-- Navbar links -->
+                    <div class="navbar-links-column navbar-links">
+                        <a class="miriam-libre-bold color-highlight text-info" href="./index.html">HOME</a>
+                        <a class="miriam-libre-bold color-white text-info" href="./portfolio.html">PORTFOLIO</a>
+                        <a class="miriam-libre-bold color-white text-info" href="#contacts">CONTATTI</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <main class="flexbox flexbox-h-center padding-bottom-3-0">
+            <div class="container flexbox flexbox-wrap flexbox-h-center">
+                <div class="column margin-top-2-0">
+                    <p class="text-title color-highlight miriam-libre-bold">MEDUSA</p>
+                    <p class="text-small color-white miriam-libre-bold">PROGETTO PERSONALE</p>
+                    <p class="text-small color-white miriam-libre-regular">ANNO 2023/2024</p>
+                </div>
+                
+                <div class="column flexbox flexbox-direction-column flexbox-v-center margin-top-3-0">
+                    <p class="text-normal color-white miriam-libre-regular text-align-center">
+                        Progetto grafico pensato e ideato da me 
+                    </p>
+                    
+                    <div class="card column-bp-768-50 margin-top-2-0 margin-bottom-2-0">
+                        <img src="images/portfolio/medusa/medusa.jpg" alt="Medusa">
+                    </div>
+
+                    <p class="text-normal color-white miriam-libre-regular margin-bottom-2-0 text-align-center">
+                        Ho realizzato un disegno in digitale usufruendo del sofware Adobe Photoshop.<br>
+                        Al centro, vi è una medusa colorata che fluttua su uno sfondo viola. 
+                    </p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer flexbox flexbox-h-center">
+            <div class="container flexbox flexbox-wrap justify-content-space-between">
+                <div id="contacts" class="column column-bp-768-auto">
+                    <h3 class="miriam-libre-bold">CONTATTI</h3>
+                    <p class="miriam-libre-regular text-small"><i class="fa-solid fa-phone"></i>+39 3493492347</p>
+                    <p class="miriam-libre-regular text-small"><i class="fa-solid fa-envelope"></i>rebecca.lamagna28@gmail.com</p>
+                </div>
+
+                <div class="column column-bp-768-auto">
+                    <h3 class="miriam-libre-bold">SOCIALS</h3>
+                    <a href="https://www.instagram.com/rebecca_lamagna/" target="_blank">
+                        <p class="miriam-libre-regular text-small color-white">
+                            <i class="fa-brands fa-instagram"></i>
+                            rebecca_lamagna
+                        </p>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100008181993490" target="_blank">
+                        <p class="miriam-libre-regular text-small color-white">
+                            <i class="fa-brands fa-facebook"></i>
+                            Rebecca La Magna
+                        </p>
+                    </a>
+                </div>
+
+                <div class="column column-bp-768-auto">
+                    <h3 class="miriam-libre-bold">COPYRIGHT</h3>
+                    <p class="miriam-libre-regular text-small">&copy 2024 REBECCA LA MAGNA</p>
+                    <p class="miriam-libre-regular text-small">All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
